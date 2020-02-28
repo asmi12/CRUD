@@ -1,0 +1,135 @@
+{
+  "students": [
+    {
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com",
+      "branch": "IT",
+      "passout_year": 2013,
+      "fees": "90000",
+      "id": 2
+    },
+    {
+      "first_name": "c",
+      "last_name": "c",
+      "email": "d",
+      "branch": "ME",
+      "passout_year": "d",
+      "fees": "50000",
+      "id": 3
+    },
+    {
+      "first_name": "c",
+      "last_name": "c",
+      "email": "x",
+      "branch": "2",
+      "passout_year": "x",
+      "fees": 70000,
+      "id": 4
+    },
+    {
+      "first_name": "d",
+      "last_name": "d",
+      "email": "d",
+      "branch": "2",
+      "passout_year": "d",
+      "fees": 70000,
+      "id": 5
+    },
+    {
+      "first_name": "xx",
+      "last_name": "x",
+      "email": "x",
+      "branch": "ME",
+      "passout_year": "x",
+      "fees": "80000",
+      "id": 6
+    },
+    {
+      "first_name": "cd",
+      "last_name": "c",
+      "email": "cd",
+      "branch": "4",
+      "passout_year": "c",
+      "fees": 90000,
+      "id": 7
+    },
+    {
+      "first_name": "c",
+      "last_name": "c",
+      "email": "c",
+      "branch": "CSE",
+      "passout_year": "c",
+      "fees": "",
+      "id": 8
+    },
+    {
+      "first_name": "s",
+      "last_name": "s",
+      "email": "s",
+      "branch": "ME",
+      "passout_year": "s",
+      "fees": "",
+      "id": 9
+    },
+    {
+      "first_name": "cd",
+      "last_name": "c",
+      "email": "d",
+      "branch": "CSE",
+      "passout_year": "d",
+      "fees": "",
+      "id": 10
+    },
+    {
+      "first_name": "s",
+      "last_name": "s",
+      "email": "s",
+      "branch": "ME",
+      "passout_year": "s",
+      "fees": "",
+      "id": 11
+    },
+    {
+      "first_name": "c",
+      "last_name": "c",
+      "email": "c",
+      "branch": "CSE",
+      "passout_year": "c",
+      "fees": "",
+      "id": 12
+    }
+  ],
+  "Fees": [
+    {
+      "id": 1,
+      "branch": "CSE",
+      "fees": 80000
+    },
+    {
+      "id": 2,
+      "branch": "ME",
+      "fees": 70000
+    },
+    {
+      "id": 3,
+      "branch": "IT",
+      "fees": 50000
+    },
+    {
+      "id": 4,
+      "branch": "CIVIL",
+      "fees": 90000
+    },
+    {
+      "id": 5,
+      "branch": "ETC",
+      "fees": 80000
+    },
+    {
+      "id": 6,
+      "branch": "ET",
+      "fees": 40000
+    }
+  ]
+}

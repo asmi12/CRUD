@@ -1,0 +1,37 @@
+<div class="col-md-12" style="margin-left:13px">
+  <h2>Student Details</h2>
+  <button class="btn btn-success" [routerLink]="['add']">New Student</button>
+  
+    <table class="table table-striped">
+      
+      <thead>
+        <tr>
+            <th>id</th>
+            <th>First Name</th>
+            <th >LastName</th>
+            <th >Email</th>
+            <th>Branch</th>
+            <th>Fees</th>
+            <th>Passing Year</th>
+           <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+         
+        <tr *ngFor='let data of studentList , let i = index'>
+          <td>{{i+1}}</td> 
+            <td>{{data.first_name}}</td>
+            <td>{{data.last_name}}</td>
+            <td>{{data.email}}</td>
+            <td>{{data.branch}}</td>
+            <td>{{data.fees}}</td>
+            <td>{{data.passout_year}}</td>
+         
+           <td><button class="btn btn-info" [routerLink]="['/student/edit',data.id]">Edit</button></td>
+           <td><button class="btn btn-info"(click)=deleteProject(data.id,i)>Delete</button></td>
+          
+        </tr>
+        
+      </tbody>
+    </table>
+    </div>
